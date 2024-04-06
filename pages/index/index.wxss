@@ -1,0 +1,258 @@
+/**index.wxss**/
+.avater{
+  width: 90%;
+  margin: auto;
+  height: 300rpx;
+  position: relative;
+}
+.avater image{
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+
+.avatercontent{
+position: absolute;
+top: 40rpx;
+left: 30rpx;
+color: white;
+}
+.avatertextOne{
+font-size: 23rpx;
+line-height: 40rpx;
+}
+
+.avtertitle{
+  font-weight: 900;
+}
+.avaterabout{
+width: 100rpx;
+text-align: center;
+font-size: 23rpx;
+padding: 10rpx;
+border: 1px solid white;
+border-radius: 15rpx;
+}
+
+.flexbox{
+  width:90%;
+  height: 150rpx;
+  margin: auto;
+  /*给当前的元素设置一个弹性容器*/
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40rpx;
+}
+
+.flexitem{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 24rpx;
+}
+
+.flexitem view{
+  margin-left: -20prx;
+}
+
+.flexitem image{
+  width: 50rpx;
+  height:50rpx;
+  margin-top: 25rpx;
+}
+
+
+.yellow{
+  background-color:#f6b059;
+}
+.purple{
+  background-color:#8f6aff;
+}
+.red{
+  background-color:#ec1e71;
+}
+.green{
+  background-color:#03e391;
+}
+.blue{
+  background-color:#1e9dff;
+}
+  
+.flexboxOne{
+  width: 90%;
+  margin: auto;
+  /*设置为弹性*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexitemOne{
+  position: relative;
+  width: 45%;
+  height:200rpx;
+  /* background-color: red; */
+  background-image: linear-gradient(to right,#feb27a,#ff7d5d);
+  border-radius: 15rpx 15rpx 15rpx 0;
+}
+
+.flexitemTwe{
+  position: relative;
+  width: 45%;
+  height:200rpx;
+  /* background-color: red; */
+  background-image: linear-gradient(to right,#93f7da,#68dee3);
+  border-radius: 15rpx 15rpx 0rpx 15rpx;
+}
+
+.flexitemOne image{
+  width: 70%;
+  height: 90%;
+  position: absolute;
+  /* position: relative; */
+  left: 0rpx;
+  bottom: 0rpx;
+}
+.flexitemTwe image{
+  width: 70%;
+  height: 90%;
+  position: absolute;
+  /* position: relative; */
+  right: -10rpx;
+  bottom: 0rpx;
+}
+
+.titletext{
+  position: absolute;
+  top:25rpx;
+  right: 30rpx;
+  font-size: 28rpx;
+  color:white;
+}
+
+.titletext2{
+  position: absolute;
+  top:25rpx;
+  left: 30rpx;
+  font-size: 28rpx;
+  color:white;
+}
+.fon{
+  font-size: 18rpx;
+}
+  
+.flexboxTwo{
+  width: 90%;
+  margin: auto;
+  height: 65rpx;
+  position: relative;
+}
+
+.flexboxTwo .flexT_img{
+  top:25rpx;
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  background-color: rgb(0,173,123);
+  border-radius: 50%;
+}
+.flexboxTwo image{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.flexboxTwo .flexT_fon{
+  top:25rpx;
+  position: absolute;
+  left: 60rpx;
+}
+
+
+.flexboxTre{
+  width: 90%;
+  margin: 20rpx auto;
+  height: 300rpx;
+  border-radius: 20rpx;
+  position: relative;
+  box-shadow: 0rpx 5rpx 5rpx 5rpx rgba(0, 0, 0, 0.3);
+}
+.flexboxTre image{
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+
+}
+
+
+.flexboxTre_tit{
+  font-weight: 400;
+}
+.flexboxTre_One{
+  font-size: 23rpx;
+  line-height: 40rpx;
+}
+.flexboxTre_fon{
+  position: absolute;
+  width: 45%;
+  top: 40rpx;
+  left: 40rpx;
+}
+.flexboxTre_abo{
+  position: relative;
+  width: 100rpx;
+  text-align: left;
+  font-size: 23rpx;
+  color: white;
+  padding: 10rpx;
+  background-image: linear-gradient(to right,rgb(63,189,245),rgb(128,224,224));
+  border-radius: 25rpx;
+}
+.flexboxTre_abo image{
+  position: absolute;
+  right: 0;
+  top: 0rpx;
+}
+
+
+  .flexboxFor{
+    width: 90%;
+    margin: auto;
+    position: relative;
+  }
+  .flexboxFor .flexboxFor_tit{
+    font-weight: 500;
+    font-size: 36rpx;
+  }
+  .flexboxFor .flexboxFor_fon{
+    margin: 15rpx auto;
+    font-size: 26rpx;
+  }
+
+.scroll{
+  width: 90%;
+  height: 150rpx;
+  margin: auto;
+  /*给当前的元素设置一个弹性容器*/
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40rpx;
+}
+.scrollitem{
+  width: 80rpx;
+  height: 80rpx;
+  background-color: red;
+  margin: auto;
+  margin-top: 30rpx;
+  border-radius: 50%;
+
+  text-align: center;
+  font-size: 24rpx;
+}
+  
+
+
+
+
+

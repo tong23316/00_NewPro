@@ -1,0 +1,105 @@
+<!--index.wxml-->
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="avater">
+    <image src="/imgs/1.png" mode=""/>
+
+    <view class="avatercontent">
+      <view class="avtertitle">智慧门户网站</view>
+      <view class="avatertextOne" style="margin-top: 20rpx;">学校概况办事指南等功能</view>
+      <view class="avatertextOne" style="margin-bottom: 20rpx;">办事快捷办事实时查看消息</view>
+      <view class="avaterabout">去了解</view>
+    </view>
+  </view>
+
+  <view class="flexbox"> 
+    <view class="flexitem yellow">
+      <image src="/imgs/school.svg" mode=""/>
+      <view>学校概况</view>
+    </view>
+    <view class="flexitem purple">
+      <image src="/imgs/score.svg" mode=""/>
+      <view>学校概况</view>
+    </view>
+    <view class="flexitem red">
+      <image src="/imgs/order.svg" mode=""/>
+      <view>学校概况</view>
+    </view>
+    <view class="flexitem green">
+      <image src="/imgs/danger.svg" mode=""/>
+      <view>学校概况</view>
+    </view>
+    <view class="flexitem blue">
+        <image src="/imgs/all.svg" mode=""/>
+        <view>学校概况</view>
+    </view>
+  </view>
+
+
+  <view class="flexboxOne">
+    <view class="flexitemOne">
+      <image src="/imgs/man.png" mode=""/>
+      <view class="titletext">
+        <view>代办事项</view>
+        <view class="fon">我的代办事项</view>      
+      </view>
+    </view>
+    <view class="flexitemTwe">
+      <image src="/imgs/woman.png" mode=""/>
+      <view class="titletext2">
+        <view>代办指南</view>
+        <view class="fon">代办指南汇总</view>      
+      </view>
+    </view>
+  </view>
+
+
+  <view class="flexboxTwo">
+    <view class="flexT_img">
+      <image src="/imgs/myimgs/声音.svg" mode=""/>
+    </view>
+    <view class="flexT_fon">
+      关于系统上线运行的时间
+    </view>
+  </view>
+
+
+  <view class="flexboxTre">
+    <image src="/imgs/newfeel.png" mode=""/>
+    <view class="flexboxTre_fon">
+      <view class="flexboxTre_tit">办事指南新体验</view>
+      <view class="flexboxTre_One" style="margin-bottom: 20rpx; margin-top: 20rpx;">新增办事指南和消息栏目办事更便捷</view>
+      <view class="flexboxTre_abo">去了解<image src="/imgs/myimgs/右三角.svg" mode=""/></view> 
+    </view>
+  </view>
+
+
+  <view class="flexboxFor">
+    <view class="flexboxFor_tit">推荐应用</view>
+    <view class="flexboxFor_fon">根据您最近浏览和办理应用为您推荐</view>
+  </view>
+
+
+<view class="scroll" >
+  <view class="scrollitem">
+    <view class="scrollitemBorder">
+
+    </view>
+  </view>
+  <view class="scrollitem">
+    <view class="scrollitemBorder">
+    
+    </view>
+  </view>
+  <view class="scrollitem">
+    <view class="scrollitemBorder">
+    
+  </view>
+  </view>
+</view>
+
+
+
+
+
+</scroll-view>
