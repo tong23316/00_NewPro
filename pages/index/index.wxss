@@ -232,14 +232,22 @@ border-radius: 15rpx;
 
 .scroll{
   width: 90%;
-  height: 150rpx;
+  height: 350rpx;
   margin: auto;
   /*给当前的元素设置一个弹性容器*/
   display: flex;
   justify-content: space-around;
   margin-top: 40rpx;
+  background-color: grey;
 }
 .scrollitem{
+  height: 100%;
+  width: 30%;
+  background-color: hotpink;
+  text-align: center;
+  font-size: 24rpx;
+}
+.scrollitemBorder{
   width: 80rpx;
   height: 80rpx;
   background-color: red;
@@ -247,9 +255,8 @@ border-radius: 15rpx;
   margin-top: 30rpx;
   border-radius: 50%;
 
-  
-  text-align: center;
-  font-size: 24rpx;
+
+
 }
   
 
