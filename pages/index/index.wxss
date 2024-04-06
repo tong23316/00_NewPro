@@ -236,7 +236,7 @@ border-radius: 15rpx;
   margin: auto;
   /*给当前的元素设置一个弹性容器*/
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 40rpx;
   background-color: grey;
 }
@@ -244,7 +244,11 @@ border-radius: 15rpx;
   height: 100%;
   width: 30%;
   background-color: hotpink;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  flex-wrap: wrap;
   font-size: 24rpx;
 }
 .scrollitemBorder{
@@ -254,13 +258,23 @@ border-radius: 15rpx;
   margin: auto;
   margin-top: 30rpx;
   border-radius: 50%;
-
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-  
+.scrollitemBorder image{
+  height: 60%;
+  width: 60%;
+}
 
+.scroll_look image{
+  height: 10rpx;
+  width: 10rpx;
+}
 
-
+.scroll_jw image{
+  height: 10rpx;
+  width: 10rpx;
+}
 
 
