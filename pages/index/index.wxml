@@ -92,23 +92,51 @@
       查看图书借阅记录
     </view>
     <view class="scroll_look">
-      <image src="" mode="/imgs/myimgs/眼睛.svg"/>
+      <image src="/imgs/myimgs/眼睛.svg" mode=""/>
       100+
     </view>
     <view class="scroll_jw">
-      <image src="" mode="/imgs/myimgs/加.svg"/>
+      <image src="/imgs/myimgs/加.svg" mode=""/>
     </view>
   </view>
-  <!-- <view class="scrollitem">
-    <view class="scrollitemBorder">
-    
-    </view>
-  </view>
+
   <view class="scrollitem">
     <view class="scrollitemBorder">
-    
+      <image src="/imgs/myimgs/图书.svg" mode=""/>
+    </view>
+    <view class="scroll_tit">
+      图书借阅
+    </view>
+    <view class="scroll_txt">
+      查看图书借阅记录
+    </view>
+    <view class="scroll_look">
+      <image src="/imgs/myimgs/眼睛.svg" mode=""/>
+      100+
+    </view>
+    <view class="scroll_jw">
+      <image src="/imgs/myimgs/加.svg" mode=""/>
+    </view>
   </view>
-  </view> -->
+
+  <view class="scrollitem">
+    <view class="scrollitemBorder">
+      <image src="/imgs/myimgs/图书.svg" mode=""/>
+    </view>
+    <view class="scroll_tit">
+      图书借阅
+    </view>
+    <view class="scroll_txt">
+      查看图书借阅记录
+    </view>
+    <view class="scroll_look">
+      <view><image src="/imgs/myimgs/眼睛.svg" mode=""/></view>
+      <view>100+</view>
+    </view>
+    <view class="scroll_jw">
+      <image src="/imgs/myimgs/加.svg" mode=""/>
+    </view>
+  </view>
 </view>
 
 <view class="di"></view>

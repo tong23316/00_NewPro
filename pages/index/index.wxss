@@ -232,7 +232,7 @@ border-radius: 15rpx;
 
 .scroll{
   width: 90%;
-  height: 350rpx;
+  height: 300rpx;
   margin: auto;
   /*给当前的元素设置一个弹性容器*/
   display: flex;
@@ -244,18 +244,16 @@ border-radius: 15rpx;
   height: 100%;
   width: 30%;
   background-color: hotpink;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* text-align: center; */
-  /* flex-wrap: wrap; */
-  /* font-size: 24rpx; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between;  */
+  /* 垂直方向分散对齐 */
+  align-items: center; /* 水平方向居中 */
 }
 .scrollitemBorder{
   width: 80rpx;
   height: 80rpx;
   background-color: red;
-  margin: auto;
   margin-top: 30rpx;
   border-radius: 50%;
   display: flex;
@@ -266,18 +264,37 @@ border-radius: 15rpx;
   height: 60%;
   width: 60%;
 }
-.scrollitemBorder .scroll_tit{
-  height: 40rpx;
+.scroll_tit{
+  margin-top: 15rpx;
   width: 100%;
+  text-align: center;
+}
+.scroll_txt{
+  text-align: center;
+  width: 100%;
+  font-size: 20rpx;
 }
 .scroll_look image{
-  height: 10rpx;
-  width: 10rpx;
+  height: 20rpx;
+  width: 20rpx;
 }
-
+.scroll_look{
+  display: flex;
+  align-items: center; /* 垂直居中 */
+  justify-content: space-between; /* 水平方向两端分散对齐 */
+  margin-top: 15rpx;
+  width: 25%;
+  text-align: center;
+  font-size: 10rpx;
+}
+.scroll_jw{
+  margin-top: 20rpx;
+  text-align: center;
+  width: 100%;
+}
 .scroll_jw image{
-  height: 10rpx;
-  width: 10rpx;
+  height: 50rpx;
+  width: 50rpx;
 }
 
 
