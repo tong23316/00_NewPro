@@ -281,11 +281,15 @@ border-radius: 15rpx;
 .scroll_look{
   display: flex;
   align-items: center; /* 垂直居中 */
-  justify-content: space-between; /* 水平方向两端分散对齐 */
+  justify-content: space-between; 
+  /* 水平方向两端分散对齐 */
   margin-top: 15rpx;
+  padding: 0 10rpx;
   width: 25%;
   text-align: center;
   font-size: 10rpx;
+  background-color:grey;
+  border-radius: 25rpx;
 }
 .scroll_jw{
   margin-top: 20rpx;
