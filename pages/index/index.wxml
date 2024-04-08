@@ -139,6 +139,50 @@
   </view>
 </view>
 
+
+<view class="adverbox">
+  <view class="advertitle">
+    <view class="advertitletext">通知公告</view>
+    <view class="advertitletext">通知公告</view>
+    <view class="advertitletext">通知公告</view>
+    <view class="advertitletext">通知公告</view>
+  </view>
+
+  <view class="adverlist">
+    <view class="adverlistitem">
+      <view class="itemleft">
+        <view class="itemtitle">关于加强新生入学后校园安全管理规范的通知</view>
+        <view class="itemauthor">校园新闻网</view>
+      </view>
+      <view class="itemright">
+        <image src="/imgs/item1.png" mode=""/>
+      </view>
+    </view>
+    <view class="adverlistitem">
+      <view class="itemleft">
+        <view class="itemtitle">关于加强新生入学后校园安全管理规范的通知</view>
+        <view class="itemauthor">校园新闻网</view>
+      </view>
+      <view class="itemright">
+        <image src="/imgs/item1.png" mode=""/>
+      </view>
+    </view>
+    <view class="adverlistitem">
+      <view class="itemleft">
+        <view class="itemtitle">关于加强新生入学后校园安全管理规范的通知</view>
+        <view class="itemauthor">校园新闻网</view>
+      </view>
+      <view class="itemright">
+        <image src="/imgs/item1.png" mode=""/>
+      </view>
+    </view>
+  </view>
+
+</view>
+
+
+
+
 <view class="di"></view>
 
 </scroll-view>

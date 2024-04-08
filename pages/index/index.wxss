@@ -301,8 +301,56 @@ border-radius: 15rpx;
   width: 50rpx;
 }
 
+.adverbox{
+  width: 90%;
+  margin: auto;
+  height: 550rpx;
+  margin-top: 40rpx;
+}
 
+.advertitletext{
+  display: inline-block;
+  margin-right: 35rpx;
+}
+.advertitletext:nth-child(1){
+  font-size: 35rpx;
+  font-weight:900;
+  border-bottom: 5rpx solid#b3f2c7;
+}
+.adverlistitem{
+  /* height:200rpx; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
 
+.itemleft{
+  width: 70%;
+  /* line-height: 45rpx; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* 垂直方向分散对齐 */
+}
+.itemauthor{
+  font-size: 25rpx;
+  color:#9f9f9f;
+}
+  
+
+.adverlist{
+  margin-top:40rpx;
+}
+.itemright{
+  width: 130rpx;
+  height: 130rpx;
+  background-image: linear-gradient(to bottom,#befcfe,#e4fbfc);
+  border-radius: 20rpx;
+}
+.itemright image{
+  width: 100%;
+  height:100%;
+}
+  
 
 
 
