@@ -1,2 +1,53 @@
 <!--pages/fand/fand.wxml-->
-<text>pages/fand/fand.wxml</text>
+<view class="avater">
+    <image src="/imgs/findationimgs/top.png" mode=""/>
+
+    <view class="avatercontent">
+      <view class="avtertitle">智慧门户网站</view>
+      <view class="avatertextOne" style="margin-top: 20rpx;">学校概况办事指南等功能</view>
+      <view class="avatertextOne" style="margin-bottom: 20rpx;">办事快捷办事实时查看消息</view>
+    </view>
+  </view>
+
+
+
+  
+<view class="adverbox">
+  <view class="advertitle">
+    <view class="advertitletext">通知公告</view>
+    <view class="advertitletext">通知公告</view>
+    <view class="advertitletext">通知公告</view>
+    <view class="advertitletext">通知公告</view>
+  </view>
+
+  <view class="adverlist">
+    <view class="adverlistitem">
+      <view class="itemleft">
+        <view class="itemtitle">关于加强新生入学后校园安全管理规范的通知</view>
+        <view class="itemauthor">校园新闻网</view>
+      </view>
+      <view class="itemright">
+        <image src="/imgs/item1.png" mode=""/>
+      </view>
+    </view>
+    <view class="adverlistitem">
+      <view class="itemleft">
+        <view class="itemtitle">关于加强新生入学后校园安全管理规范的通知</view>
+        <view class="itemauthor">校园新闻网</view>
+      </view>
+      <view class="itemright">
+        <image src="/imgs/item1.png" mode=""/>
+      </view>
+    </view>
+    <view class="adverlistitem">
+      <view class="itemleft">
+        <view class="itemtitle">关于加强新生入学后校园安全管理规范的通知</view>
+        <view class="itemauthor">校园新闻网</view>
+      </view>
+      <view class="itemright">
+        <image src="/imgs/item1.png" mode=""/>
+      </view>
+    </view>
+  </view>
+
+</view>
