@@ -178,11 +178,11 @@
 .botapp{
   height: 500rpx;
   margin-top: 20rpx;
-  background-color: grey;
+  /* background-color: grey; */
 }
 .botapp_tit{
   height: 50rpx;
-  background-color:gold;
+  /* background-color:gold; */
   text-align: left;
   font-size: 20rpx;
   display: flex;
@@ -192,7 +192,7 @@
 .botapp_div{
   display: flex;
   flex-wrap: wrap;
-  background-color: red;
+  /* background-color: red; */
   height: 400rpx;
 }
 .botapp_div view{
@@ -206,12 +206,12 @@
   position: relative;
 }
 .botapp_div image{
-  width: 50%;
-  height: 50%;
+  width: 35%;
+  height: 35%;
 }
 .botapp_div .botapp_divtxt{
   position: absolute;
-  bottom: -10rpx;
+  bottom: 0rpx;
   font-size: 20rpx;
   width: 100%;
   background-color: transparent;

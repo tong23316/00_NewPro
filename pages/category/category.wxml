@@ -145,16 +145,16 @@
     <view>
       <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
     </view>
-    <view style="margin-top: -60rpx;">
+    <view style="margin-top: -120rpx;">
       <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
     </view>
-    <view style="margin-top: -60rpx;">
+    <view style="margin-top: -120rpx;">
       <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
     </view>
-    <view style="margin-top: -60rpx;">
+    <view style="margin-top: -120rpx;">
       <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
     </view>
-    <view  style="margin-top: -60rpx;">
+    <view  style="margin-top: -120rpx;">
       <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
     </view>
   </view>  
