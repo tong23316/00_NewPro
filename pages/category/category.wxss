@@ -1,1 +1,236 @@
 /* pages/category/category.wxss */
+.flexboxOne{
+  width: 90%;
+  margin: auto;
+  /*设置为弹性*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexitemOne{
+  position: relative;
+  width: 45%;
+  height:200rpx;
+  /* background-color: red; */
+  background-image: linear-gradient(to right,#feb27a,#ff7d5d);
+  border-radius: 15rpx 15rpx 15rpx 0;
+}
+
+.flexitemTwe{
+  position: relative;
+  width: 45%;
+  height:200rpx;
+  /* background-color: red; */
+  background-image: linear-gradient(to right,#93f7da,#68dee3);
+  border-radius: 15rpx 15rpx 0rpx 15rpx;
+}
+
+.flexitemOne image{
+  width: 70%;
+  height: 90%;
+  position: absolute;
+  /* position: relative; */
+  left: 0rpx;
+  bottom: 0rpx;
+}
+.flexitemTwe image{
+  width: 70%;
+  height: 90%;
+  position: absolute;
+  /* position: relative; */
+  right: -10rpx;
+  bottom: 0rpx;
+}
+.titletext{
+  position: absolute;
+  top:25rpx;
+  right: 30rpx;
+  font-size: 28rpx;
+  color:white;
+}
+.titletext2{
+  position: absolute;
+  top:25rpx;
+  left: 30rpx;
+  font-size: 28rpx;
+  color:white;
+}
+.fon{
+  font-size: 18rpx;
+}
+  
+
+
+.flexboxFor{
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+.flexboxFor .flexboxFor_tit{
+  font-weight: 500;
+  font-size: 36rpx;
+}
+.flexboxFor .flexboxFor_fon{
+  margin: 15rpx auto;
+  font-size: 26rpx;
+}
+
+
+
+
+.scroll{
+  width: 90%;
+  height: 300rpx;
+  margin: auto;
+  /* display: flex;
+  justify-content: space-between; */
+  margin-top: 40rpx;
+  background-color: grey;
+}
+.scrollitem{
+  margin-right: 35rpx;
+  height: 100%;
+  width: 30%;
+  background-color: hotpink;
+  display: flex;
+  display: inline-block;
+  /* flex-direction: column; */
+  /* justify-content: space-between;  */
+  /* 垂直方向分散对齐 */
+  align-items: center; /* 水平方向居中 */
+}
+.scrollitemBorder{
+  width: 80rpx;
+  height: 80rpx;
+  background-color: red;
+  margin: auto;
+  margin-top: 30rpx;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scroll .scrollitem:nth-child(4) {
+  margin-right: 0rpx;
+}
+.scrollitemBorder image{
+  height: 60%;
+  width: 60%;
+}
+.scroll_tit{
+  margin-top: 15rpx;
+  width: 100%;
+  text-align: center;
+}
+.scroll_txt{
+  text-align: center;
+  width: 100%;
+  font-size: 20rpx;
+}
+.scroll_look image{
+  height: 20rpx;
+  width: 20rpx;
+}
+.scroll_look{
+  margin: auto;
+  display: flex;
+  align-items: center; /* 垂直居中 */
+  justify-content: space-between; 
+  /* 水平方向两端分散对齐 */
+  margin-top: 15rpx;
+  padding: 0 10rpx;
+  width: 25%;
+  text-align: center;
+  font-size: 10rpx;
+  background-color:grey;
+  border-radius: 25rpx;
+}
+.scroll_jw{
+  margin-top: 10rpx;
+  text-align: center;
+  width: 100%;
+}
+.scroll_jw image{
+  height: 50rpx;
+  width: 50rpx;
+}
+
+
+
+
+.adverbox{
+  width: 90%;
+  margin: auto;
+  height: 550rpx;
+  margin-top: 40rpx;
+}
+.advertitletext{
+  display: inline-block;
+  margin-right: 35rpx;
+}
+.advertitletext:nth-child(1){
+  font-size: 35rpx;
+  font-weight:900;
+  border-bottom: 5rpx solid#b3f2c7;
+}
+
+.botapp{
+  height: 500rpx;
+  margin-top: 20rpx;
+  background-color: grey;
+}
+.botapp_tit{
+  height: 50rpx;
+  background-color:gold;
+  text-align: left;
+  font-size: 20rpx;
+  display: flex;
+  align-items: center;
+}
+
+.botapp_div{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+  height: 400rpx;
+}
+.botapp_div view{
+  width: 25%;
+  height: 42%;
+  /* border: 1px solid #ccc; */
+  /* background-color: gold; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.botapp_div image{
+  width: 50%;
+  height: 50%;
+}
+.botapp_div .botapp_divtxt{
+  position: absolute;
+  bottom: -10rpx;
+  font-size: 20rpx;
+  width: 100%;
+  background-color: transparent;
+}
+
+
+
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+  width: 90%;
+  height: 400rpx;
+  margin: auto;
+}
+
+.box {
+  width: 25%;
+  height: 50%;
+  border: 1px solid #ccc;
+  background-color: gold;
+} */

@@ -80,6 +80,11 @@ border-radius: 15rpx;
   background-color:#1e9dff;
 }
   
+
+
+
+
+
 .flexboxOne{
   width: 90%;
   margin: auto;
@@ -87,7 +92,6 @@ border-radius: 15rpx;
   display: flex;
   justify-content: space-between;
 }
-
 .flexitemOne{
   position: relative;
   width: 45%;
@@ -96,7 +100,6 @@ border-radius: 15rpx;
   background-image: linear-gradient(to right,#feb27a,#ff7d5d);
   border-radius: 15rpx 15rpx 15rpx 0;
 }
-
 .flexitemTwe{
   position: relative;
   width: 45%;
@@ -105,7 +108,6 @@ border-radius: 15rpx;
   background-image: linear-gradient(to right,#93f7da,#68dee3);
   border-radius: 15rpx 15rpx 0rpx 15rpx;
 }
-
 .flexitemOne image{
   width: 70%;
   height: 90%;
@@ -122,7 +124,6 @@ border-radius: 15rpx;
   right: -10rpx;
   bottom: 0rpx;
 }
-
 .titletext{
   position: absolute;
   top:25rpx;
@@ -130,7 +131,6 @@ border-radius: 15rpx;
   font-size: 28rpx;
   color:white;
 }
-
 .titletext2{
   position: absolute;
   top:25rpx;
@@ -142,13 +142,16 @@ border-radius: 15rpx;
   font-size: 18rpx;
 }
   
+
+
+
+
 .flexboxTwo{
   width: 90%;
   margin: auto;
   height: 65rpx;
   position: relative;
 }
-
 .flexboxTwo .flexT_img{
   top:25rpx;
   position: absolute;
@@ -322,7 +325,6 @@ border-radius: 15rpx;
   height: 550rpx;
   margin-top: 40rpx;
 }
-
 .advertitletext{
   display: inline-block;
   margin-right: 35rpx;
