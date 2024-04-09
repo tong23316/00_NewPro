@@ -143,25 +143,15 @@
   font-weight:900;
   border-bottom: 5rpx solid#b3f2c7;
 }
-
 .botapp{
-  height: 500rpx;
+  height: 300rpx;
   margin-top: 20rpx;
-  background-color: grey;
+  /* background-color: grey; */
 }
-.botapp_tit{
-  height: 50rpx;
-  background-color:gold;
-  text-align: left;
-  font-size: 20rpx;
-  display: flex;
-  align-items: center;
-}
-
 .botapp_div{
   display: flex;
   flex-wrap: wrap;
-  background-color: red;
+  /* background-color: red; */
   height: 400rpx;
 }
 .botapp_div view{
@@ -175,12 +165,12 @@
   position: relative;
 }
 .botapp_div image{
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
 }
 .botapp_div .botapp_divtxt{
   position: absolute;
-  bottom: -10rpx;
+  bottom: -5rpx;
   font-size: 20rpx;
   width: 100%;
   background-color: transparent;

@@ -64,16 +64,51 @@
     <view>
       <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
     </view>
-    <view style="margin-top: -60rpx;">
+    <view style="margin-top: -120rpx;">
       <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
     </view>
-    <view style="margin-top: -60rpx;">
+    <view style="margin-top: -120rpx;">
       <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
     </view>
-    <view style="margin-top: -60rpx;">
+    <view style="margin-top: -120rpx;">
       <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
     </view>
-    <view  style="margin-top: -60rpx;">
+    <view  style="margin-top: -120rpx;">
+      <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
+    </view>
+  </view>  
+</view>
+</view>
+
+<view class="adverbox">
+    <view class="advertitle">
+      <view class="advertitletext">通知公告</view>
+    </view>
+
+<view class="botapp">
+  <view class="botapp_div">
+    <view>
+      <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
+    </view>
+    <view>
+      <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
+    </view>
+    <view>
+      <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
+    </view>
+    <view>
+      <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
+    </view>
+    <view style="margin-top: -120rpx;">
+      <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
+    </view>
+    <view style="margin-top: -120rpx;">
+      <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
+    </view>
+    <view style="margin-top: -120rpx;">
+      <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
+    </view>
+    <view  style="margin-top: -120rpx;">
       <image src="/imgs/appimgs/school.png" mode=""/><view class="botapp_divtxt">学校概况</view>
     </view>
   </view>  

@@ -85,13 +85,14 @@
   /* display: flex;
   justify-content: space-between; */
   margin-top: 40rpx;
-  background-color: grey;
+  /* background-color: grey; */
 }
 .scrollitem{
   margin-right: 35rpx;
   height: 100%;
   width: 30%;
-  background-color: hotpink;
+  /* background-color: hotpink; */
+  box-shadow: 0rpx 5rpx 5rpx 5rpx rgba(0, 0, 0, 0.1);
   display: flex;
   display: inline-block;
   /* flex-direction: column; */
