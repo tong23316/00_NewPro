@@ -1,1 +1,134 @@
 /* pages/cart/cart.wxss */
+
+
+.flexbox{
+  width:90%;
+  height: 150rpx;
+  margin: auto;
+  /*给当前的元素设置一个弹性容器*/
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40rpx;
+}
+.flexitem{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 22rpx;
+}
+.flexitem view{
+  margin-left: -20prx;
+}
+.flexitem image{
+  width: 50rpx;
+  height:50rpx;
+  margin-top: 20rpx;
+}
+.yellow{
+  background-color:#f6b059;
+}
+.purple{
+  background-color:#8f6aff;
+}
+.red{
+  background-color:#ec1e71;
+}
+.green{
+  background-color:#03e391;
+}
+.blue{
+  background-color:#1e9dff;
+}
+  
+
+
+
+
+.mess{
+  width: 90%;
+  height: 90rpx;
+  margin: auto;
+  margin-top: 60rpx;
+  /* background-color: gray; */
+  position: relative;
+}
+.mess .big-box{
+  width: 70%;
+  height: 100%;
+  /* background-color: hotpink; */
+  position: relative;
+}
+.mess .big-box .big-box-img{
+  height: 100%;
+  width: 19%;
+  /* background-color: greenyellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mess .big-box .big-box-tit{
+  position: absolute;
+  width: 81%;
+  height: 65%;
+  right: 0;
+  top: 0;
+  font-size: 32rpx;
+  /* line-height: 50rpx; */
+  /* background-color: lawngreen; */
+}
+.mess .big-box .big-box-txt{
+  position: absolute;
+  width: 79%;
+  height: 35%;
+  right: 0;
+  bottom: 0;
+  font-size: 20rpx;
+  color: gray;
+  /* text-align: bottom; */
+  /* vertical-align: bottom; */
+  /* line-height: 40rpx; */
+  /* background-color:lightblue; */
+}
+.mess .big-box .big-box-img image{
+  height: 80%;
+  width: 80%;
+}
+.mess .yesterday{
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* background-color: khaki; */
+  text-align: right;
+  color: gray;
+  font-size: 20rpx;
+}
+
+
+/* .big-box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.small-box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  position: absolute;
+}
+.left {
+  left: 0;
+}
+.top-right {
+  top: 0;
+  right: 0;
+}
+.bottom-right {
+  bottom: 0;
+  right: 0;
+} */
