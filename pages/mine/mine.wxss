@@ -124,3 +124,68 @@
   font-size: 20rpx;
 }
 
+
+
+
+
+.adverbox{
+  width: 90%;
+  margin: auto;
+  height: 550rpx;
+  margin-top: 40rpx;
+}
+.advertitletext{
+  display: inline-block;
+  margin-right: 35rpx;
+}
+.advertitletext:nth-child(1){
+  font-size: 35rpx;
+  font-weight:900;
+  border-bottom: 5rpx solid#b3f2c7;
+}
+
+.botapp{
+  height: 500rpx;
+  margin-top: 20rpx;
+  background-color: grey;
+}
+.botapp_tit{
+  height: 50rpx;
+  background-color:gold;
+  text-align: left;
+  font-size: 20rpx;
+  display: flex;
+  align-items: center;
+}
+
+.botapp_div{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+  height: 400rpx;
+}
+.botapp_div view{
+  width: 25%;
+  height: 42%;
+  /* border: 1px solid #ccc; */
+  /* background-color: gold; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.botapp_div image{
+  width: 50%;
+  height: 50%;
+}
+.botapp_div .botapp_divtxt{
+  position: absolute;
+  bottom: -10rpx;
+  font-size: 20rpx;
+  width: 100%;
+  background-color: transparent;
+}
+
+
+
+  
