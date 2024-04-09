@@ -177,10 +177,6 @@
   font-weight:900;
   border-bottom: 5rpx solid#b3f2c7;
 }
-
-
-
-
 .botapp_tit{
   margin-top: 30rpx;
   font-size: 28rpx;
