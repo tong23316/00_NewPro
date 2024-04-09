@@ -1,1 +1,124 @@
 /* pages/mine/mine.wxss */
+
+.flexboxOne{
+  width: 90%;
+  margin: auto;
+  /*设置为弹性*/
+  display: flex;
+  justify-content: space-between;
+}
+.flexitemOne{
+  position: relative;
+  width: 45%;
+  height:200rpx;
+  /* background-color: red; */
+  background-image: linear-gradient(to right,#feb27a,#ff7d5d);
+  border-radius: 15rpx 15rpx 15rpx 0;
+}
+.flexitemTwe{
+  position: relative;
+  width: 45%;
+  height:200rpx;
+  /* background-color: red; */
+  background-image: linear-gradient(to right,#93f7da,#68dee3);
+  border-radius: 15rpx 15rpx 0rpx 15rpx;
+}
+.flexitemOne image{
+  width: 70%;
+  height: 90%;
+  position: absolute;
+  /* position: relative; */
+  left: 0rpx;
+  bottom: 0rpx;
+}
+.flexitemTwe image{
+  width: 70%;
+  height: 90%;
+  position: absolute;
+  /* position: relative; */
+  right: -10rpx;
+  bottom: 0rpx;
+}
+.titletext{
+  position: absolute;
+  top:25rpx;
+  right: 30rpx;
+  font-size: 28rpx;
+  color:white;
+}
+.titletext2{
+  position: absolute;
+  top:25rpx;
+  left: 30rpx;
+  font-size: 28rpx;
+  color:white;
+}
+.fon{
+  font-size: 18rpx;
+}
+
+
+
+
+
+.mess{
+  width: 90%;
+  height: 90rpx;
+  margin: auto;
+  margin-top: 60rpx;
+  /* background-color: gray; */
+  position: relative;
+}
+.mess .big-box{
+  width: 70%;
+  height: 100%;
+  /* background-color: hotpink; */
+  position: relative;
+}
+.mess .big-box .big-box-img{
+  height: 100%;
+  width: 19%;
+  /* background-color: greenyellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mess .big-box .big-box-tit{
+  position: absolute;
+  width: 81%;
+  height: 65%;
+  right: 0;
+  top: 0;
+  font-size: 32rpx;
+  /* line-height: 50rpx; */
+  /* background-color: lawngreen; */
+}
+.mess .big-box .big-box-txt{
+  position: absolute;
+  width: 79%;
+  height: 35%;
+  right: 0;
+  bottom: 0;
+  font-size: 20rpx;
+  color: gray;
+  /* text-align: bottom; */
+  /* vertical-align: bottom; */
+  /* line-height: 40rpx; */
+  /* background-color:lightblue; */
+}
+.mess .big-box .big-box-img image{
+  height: 80%;
+  width: 80%;
+}
+.mess .yesterday{
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* background-color: khaki; */
+  text-align: right;
+  color: gray;
+  font-size: 20rpx;
+}
+

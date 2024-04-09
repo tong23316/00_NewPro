@@ -1,2 +1,27 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view class="flexboxOne">
+    <view class="flexitemOne">
+      <image src="/imgs/man.png" mode=""/>
+      <view class="titletext">
+        <view>代办事项</view>
+        <view class="fon">我的代办事项</view>      
+      </view>
+    </view>
+    <view class="flexitemTwe">
+      <image src="/imgs/woman.png" mode=""/>
+      <view class="titletext2">
+        <view>代办指南</view>
+        <view class="fon">代办指南汇总</view>      
+      </view>
+    </view>
+  </view>
+
+
+  <view class="mess">
+  <view class="big-box">
+        <view class="big-box-img"><image src="/imgs/messageimgs/7.png" mode=""/></view>
+        <view class="big-box-tit">教职工请假申请</view>
+        <view class="big-box-txt">工作部门:系统维护 请假申请人:xxx</view>
+  </view>
+  <view class="yesterday">昨天</view>
+</view>
