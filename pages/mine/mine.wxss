@@ -82,10 +82,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  background-color: lightcoral;
 }
 .mess .big-box .big-box-tit{
   position: absolute;
-  width: 81%;
+  width: 76%;
   height: 65%;
   right: 0;
   top: 0;
@@ -95,7 +97,7 @@
 }
 .mess .big-box .big-box-txt{
   position: absolute;
-  width: 79%;
+  width: 76%;
   height: 35%;
   right: 0;
   bottom: 0;
@@ -107,8 +109,8 @@
   /* background-color:lightblue; */
 }
 .mess .big-box .big-box-img image{
-  height: 80%;
-  width: 80%;
+  height: 60%;
+  width: 60%;
 }
 .mess .yesterday{
   width: 30%;
