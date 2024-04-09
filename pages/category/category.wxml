@@ -1,7 +1,33 @@
-<!--pages/category/category.wxml-->
-<navigation-bar title="智慧校园22" back="{{false}}" color="black" background="#FFF"></navigation-bar>
-<!-- <scroll-view class="scrollarea" scroll-y type="list"> -->
-  <!-- <text>pages/category/category.wxml</text> -->
+<!-------------------------------------------------------------------------------------- 
+  默认是没有生效的(navigation-bar)，需要修改app.json中的windows下的"default"为"navigationStyle"
+  default:          默认样式
+  navigationStyle： 自定义样式
+ ---------------------------------------------------------------------------------->
+<navigation-bar fixed="true" title="标题">
+  <view class="nav-item">首页</view>
+  <view class="nav-item">产品</view>
+  <view class="nav-item">关于我们</view>
+</navigation-bar>
+
+
+  <view class="flexboxOne">
+    <view class="flexitemOne">
+      <image src="/imgs/man.png" mode=""/>
+      <view class="titletext">
+        <view>代办事项</view>
+        <view class="fon">我的代办事项</view>      
+      </view>
+    </view>
+    <view class="flexitemTwe">
+      <image src="/imgs/woman.png" mode=""/>
+      <view class="titletext2">
+        <view>代办指南</view>
+        <view class="fon">代办指南汇总</view>      
+      </view>
+    </view>
+  </view>
+
+
   <view> </view>
   <view> </view>
   <view> </view>

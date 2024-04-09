@@ -1,5 +1,7 @@
 <!--index.wxml-->
-<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<!-- <navigation-bar title="智慧校园" back="{{false}}" color="black" background="#FFF"></navigation-bar> -->
+
+
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="avater">
     <image src="/imgs/1.png" mode=""/>

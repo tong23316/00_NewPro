@@ -216,6 +216,8 @@ border-radius: 15rpx;
 }
 
 
+
+
   .flexboxFor{
     width: 90%;
     margin: auto;
@@ -229,6 +231,8 @@ border-radius: 15rpx;
     margin: 15rpx auto;
     font-size: 26rpx;
   }
+
+
 
 
 .scroll{
@@ -262,6 +266,9 @@ border-radius: 15rpx;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.scroll .scrollitem:nth-child(4) {
+  margin-right: 0rpx;
 }
 .scrollitemBorder image{
   height: 60%;
@@ -304,9 +311,7 @@ border-radius: 15rpx;
   height: 50rpx;
   width: 50rpx;
 }
-.scroll .scrollitem:nth-child(4) {
-  margin-right: 0rpx;
-}
+
 
 
 

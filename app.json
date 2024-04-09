@@ -9,10 +9,10 @@
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationStyle": "custom",
+    "default": "custom",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat"
+    "navigationBarTitleText": "智慧校园"
   },
   "tabBar": {
     "list": [
