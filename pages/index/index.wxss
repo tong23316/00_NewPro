@@ -230,22 +230,24 @@ border-radius: 15rpx;
     font-size: 26rpx;
   }
 
+
 .scroll{
   width: 90%;
   height: 300rpx;
   margin: auto;
-  /*给当前的元素设置一个弹性容器*/
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   margin-top: 40rpx;
   background-color: grey;
 }
 .scrollitem{
+  margin-right: 35rpx;
   height: 100%;
   width: 30%;
   background-color: hotpink;
   display: flex;
-  flex-direction: column;
+  display: inline-block;
+  /* flex-direction: column; */
   /* justify-content: space-between;  */
   /* 垂直方向分散对齐 */
   align-items: center; /* 水平方向居中 */
@@ -254,6 +256,7 @@ border-radius: 15rpx;
   width: 80rpx;
   height: 80rpx;
   background-color: red;
+  margin: auto;
   margin-top: 30rpx;
   border-radius: 50%;
   display: flex;
@@ -279,6 +282,7 @@ border-radius: 15rpx;
   width: 20rpx;
 }
 .scroll_look{
+  margin: auto;
   display: flex;
   align-items: center; /* 垂直居中 */
   justify-content: space-between; 
@@ -292,7 +296,7 @@ border-radius: 15rpx;
   border-radius: 25rpx;
 }
 .scroll_jw{
-  margin-top: 20rpx;
+  margin-top: 10rpx;
   text-align: center;
   width: 100%;
 }
@@ -300,6 +304,12 @@ border-radius: 15rpx;
   height: 50rpx;
   width: 50rpx;
 }
+.scroll .scrollitem:nth-child(4) {
+  margin-right: 0rpx;
+}
+
+
+
 
 .adverbox{
   width: 90%;
