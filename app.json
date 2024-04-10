@@ -5,7 +5,8 @@
     "pages/mine/mine",
     "pages/category/category",
     "pages/fand/fand",
-    "pages/cart/cart"
+    "pages/cart/cart",
+    "pages/settool/settool"
   ],
   "window": {
     "navigationBarTextStyle": "black",
