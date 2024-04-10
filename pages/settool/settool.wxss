@@ -1,0 +1,55 @@
+/* pages/settool/settool.wxss */
+
+/* page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+} */
+.set-tit{
+  width: 90%;
+  height: 60rpx;
+  margin: auto;
+  margin-bottom: 50rpx;
+  text-align: center;
+  /* background-color: aquamarine; */
+  position: relative;
+  line-height: 60rpx;
+  font-size: 36rpx;
+}
+.set-tit image{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  left: 0;
+  /* background-color: red; */
+}
+
+
+.set-mess{
+  margin: auto;
+  width: 90%;
+  height: 100rpx;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(122, 119, 119);
+  /* color: #209BFD; */
+}
+
+.set-messimg{
+  height: 100rpx;
+  width: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.set-messimg image{
+  width: 60%;
+  height: 60%;
+  /* background-color: cadetblue; */
+}

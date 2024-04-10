@@ -1,0 +1,23 @@
+<!--pages/settool/settool.wxml-->
+<navigation-bar title="Weixin11" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+
+<scroll-view class="scrollarea" scroll-y type="list">
+
+<view class="set-tit" bindtap="navigateToTargetPage">
+<image src="/imgs/myimgs/左左.svg" mode=""/>
+设置
+</view>
+
+<view class="set-mess"><view class="set-messimg"><image src="/imgs/myimgs/喇叭.svg" mode=""/></view><view class="set-messtxt">新消息通知</view></view>
+<view class="set-mess"><view class="set-messimg"><image src="/imgs/myimgs/喇叭.svg" mode=""/></view><view class="set-messtxt">新消息通知</view></view>
+<view class="set-mess"><view class="set-messimg"><image src="/imgs/myimgs/喇叭.svg" mode=""/></view><view class="set-messtxt">新消息通知</view></view>
+<view class="set-mess"><view class="set-messimg"><image src="/imgs/myimgs/喇叭.svg" mode=""/></view><view class="set-messtxt">新消息通知</view></view>
+<view class="set-mess" style=" border-bottom:0px;"><view class="set-messimg"><image src="/imgs/myimgs/喇叭.svg" mode=""/></view><view class="set-messtxt">新消息通知</view></view>
+
+
+<view class="set-mess" style="margin-top: 50rpx;  border-bottom:0px;" bindtap="login">
+  <view class="set-messimg"><image src="/imgs/myimgs/退出.svg" mode=""/></view>
+  <view class="set-messtxt" style="color: #209BFD;">退出登录</view>
+</view>
+
+</scroll-view>
