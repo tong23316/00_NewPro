@@ -1,2 +1,24 @@
 <!--pages/logs/logs.wxml-->
-<text>pages/logs/logs.wxml</text>
+<!-- <text>pages/logs/logs.wxml</text> -->
+
+
+<view class="tit">
+<image src="/imgs/myimgs/叉叉.svg" mode=""/>
+<view style="color: gray; font-size: 28rpx;">验证码登录</view>
+</view>
+
+
+<view class="txt-h1">账号密码登录</view>
+
+
+<view class="num-pass">请输入账号</view>
+<view class="num-pass">请输入密码</view>
+
+<view class="problem">登录遇到问题？</view>
+
+
+<view class="log">登录</view>
+
+<!-- bindtap="login-login" -->
+<!-- bindtap="login-face" -->
+<!-- bindtap="login-fast" -->

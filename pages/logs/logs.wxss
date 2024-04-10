@@ -1,1 +1,52 @@
 /* pages/logs/logs.wxss */
+.tit{
+  width: 90%;
+  margin: auto;
+  height: 80rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.tit image{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+
+
+.txt-h1{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40rpx;
+  font-weight: 600;
+  font-size: 40rpx;
+}
+
+
+.num-pass{
+  width: 90%;
+  margin: auto;
+  height: 80rpx;
+  border-bottom: 1px solid rgb(153, 150, 150);
+  line-height: 80rpx;
+  color: rgb(192, 194, 196);
+}
+
+.problem{
+  width: 90%;
+  margin: auto;
+  font-size: 22rpx;
+  margin-top: 40rpx;
+}
+
+.log{
+  width: 90%;
+  margin: auto;
+  margin-top: 50rpx;
+  background-color: aquamarine;
+  height: 80rpx;
+  border-radius: 40rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
