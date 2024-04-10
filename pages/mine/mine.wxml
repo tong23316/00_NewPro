@@ -1,4 +1,22 @@
 <!--pages/mine/mine.wxml-->
+<image class="bgi" src="/imgs/背景图.svg" mode=""/>
+<div class="container">
+  <div class="box1">
+    <view class="box1-tu"><image src="/imgs/myimgs/set.png" mode="" bindtap="settool"/></view>
+    <view style="line-height: 50rpx;">我的</view>
+    <view class="box1-tu"><image src="/imgs/myimgs/info.png" mode=""/></view>
+  </div>
+  <div class="box2">
+    <view class="box2-font">
+      <view class="name">立里</view>
+      <view class="informetion">信息化管理中心</view>
+    </view>
+    <view class="box2-tu"><image src="/imgs/myimgs/avater.png" mode=""/></view>
+  </div>
+</div>
+
+
+
 <view class="flexboxOne">
     <view class="flexitemOne">
       <image src="/imgs/man.png" mode=""/>

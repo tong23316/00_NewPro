@@ -1,4 +1,82 @@
 /* pages/mine/mine.wxss */
+.bgi{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250rpx;
+  /* background-image: linear-gradient(to bottom,#46f3ab,#ffffff); */
+}
+.box1{
+  width: 100%;
+  height: 50rpx;
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute;
+  z-index: 1; */
+}
+.box1-tu{
+  height: 50rpx;
+  width: 50rpx;
+}
+.box1-tu image{
+  height: 100%;
+  width: 100%;
+}
+
+.box2{
+  width: 100%;
+  height: 100rpx;
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: space-between;
+    /* position: absolute; */
+  /* z-index: 1; */
+}
+.box2-font{
+  height: 100%;
+  width: 65%;
+  /* background-color: lightcoral; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box2-font .name{
+  font-weight: 600;
+  font-size: 36rpx;
+}
+.box2-font .informetion{
+  color: gray;
+  font-size: 24rpx;
+}
+.box2-tu{
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2-tu image{
+  width: 90%;
+  height: 90%;
+  border-radius: 50%; 
+  background-image: linear-gradient(to right,#feb27a,#ff7d5d);
+}
+
+
+
+
+
 
 .flexboxOne{
   width: 90%;
