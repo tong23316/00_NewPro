@@ -37,6 +37,6 @@
     </view>
   </view>
   <view class="item-btns">
-    <view class="delete-btn">删除</view>
+    <view class="delete-btn"  bindtap="deleteItem">删除</view>
   </view>
 </view>

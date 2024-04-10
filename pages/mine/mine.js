@@ -62,7 +62,14 @@ Page({
       list
     });
   },
-
+  deleteItem: function (e) {//删除事件
+    let index = e.currentTarget.dataset.index;
+    let list = this.data.list;
+    list.splice(index, 1);
+    this.setData({
+      list: list
+    });
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
