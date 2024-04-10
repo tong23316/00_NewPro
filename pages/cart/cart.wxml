@@ -23,38 +23,20 @@
   </view>
 
 
-<view class="mess">
-  <view class="big-box">
-        <view class="big-box-img"><image src="/imgs/messageimgs/7.png" mode=""/></view>
-        <view class="big-box-tit">教职工请假申请</view>
-        <view class="big-box-txt">工作部门:系统维护 请假申请人:xxx</view>
-  </view>
-  <view class="yesterday">昨天</view>
-</view>
 
-<view class="mess">
-  <view class="big-box">
-        <view class="big-box-img"><image src="/imgs/messageimgs/7.png" mode=""/></view>
-        <view class="big-box-tit">教职工请假申请</view>
-        <view class="big-box-txt">工作部门:系统维护 请假申请人:xxx</view>
+<!-- ------------------------------教职工请假部分---------------------------- -->
+<view class="list-item" style="background-color:greenyellow;" wx:for="{{list}}" wx:key="id">
+  <view class="item-cont" data-index="{{index}}" style="left:{{item.offsetX}}rpx" bindtouchstart="touchStart" catchtouchmove="touchMove" bindtouchend="touchEnd">
+    <view class="mess">
+      <view class="big-box">
+          <view class="big-box-img"><image src="/imgs/messageimgs/7.png" mode=""/></view>
+          <view class="big-box-tit">{{item.name}}</view>
+          <view class="big-box-txt">{{item.mobile}}</view>
+      </view>
+      <view class="yesterday">昨天</view>
+    </view>
   </view>
-  <view class="yesterday">昨天</view>
-</view>
-
-<view class="mess">
-  <view class="big-box">
-        <view class="big-box-img"><image src="/imgs/messageimgs/7.png" mode=""/></view>
-        <view class="big-box-tit">教职工请假申请</view>
-        <view class="big-box-txt">工作部门:系统维护 请假申请人:xxx</view>
+  <view class="item-btns">
+    <view class="delete-btn">删除</view>
   </view>
-  <view class="yesterday">昨天</view>
-</view>
-
-<view class="mess">
-  <view class="big-box">
-        <view class="big-box-img"><image src="/imgs/messageimgs/7.png" mode=""/></view>
-        <view class="big-box-tit">教职工请假申请</view>
-        <view class="big-box-txt">工作部门:系统维护 请假申请人:xxx</view>
-  </view>
-  <view class="yesterday">昨天</view>
 </view>
