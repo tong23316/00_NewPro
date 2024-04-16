@@ -1,1 +1,117 @@
 /* pages/log/phone/phone.wxss */
+
+.topbox{
+  width: 90%;
+  height: 100rpx;
+  background-color: aquamarine;
+  margin: auto;
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+}
+
+.topbox view {
+  margin-left: 0;
+  background-color: blanchedalmond;
+  height: 80rpx;
+  width: 80rpx;
+}
+.topbox image{
+  background-color: blueviolet;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.toptubox{
+  width: 90%;
+  height: 100rpx;
+  /* background-color: greenyellow; */
+  margin: auto;
+  margin-top: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toptubox view{
+  width: 100rpx;
+  height: 100rpx;
+  /* background-color: hotpink; */
+}
+.toptubox view image{
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+  background-color: indianred;
+}
+.tit1box{
+  width: 90%;
+  margin: auto;
+  font-size: 46rpx;
+  font-weight: 600;
+  text-align: center;
+}
+.tit2box{
+  width: 90%;
+  margin: auto;
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: gray;
+  text-align: center;
+}
+.account{
+  width: 90%;
+  margin: auto;
+  margin-top: 20rpx;
+  text-align: center;
+  color: dodgerblue;
+}
+
+
+.logtxt{
+  width: 90%;
+  margin: auto;
+  margin-top: 50rpx;
+  background-color: dodgerblue;
+  height: 80rpx;
+  border-radius: 30rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: white;
+}
+
+
+.bottxt1{
+  width: 90%;
+  height: 80rpx;
+  margin: auto;
+  
+  /* background-color: bisque; */
+  text-align: center;
+  position: absolute;
+  bottom: 200rpx;
+  left: 35rpx;
+
+}
+
+.logmess{
+  width: 90%;
+  height: 80rpx;
+  margin: auto;
+  text-align: center;
+  /* background-color: bisque; */
+  position: absolute;
+  bottom: 100rpx;
+  left: 35rpx;
+  font-size: 24rpx;
+  color: gray;
+
+}
+.logmess image{
+  height: 24rpx;
+  width: 24rpx;
+}
+
+
+

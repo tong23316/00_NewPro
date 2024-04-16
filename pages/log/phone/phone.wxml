@@ -1,2 +1,24 @@
 <!--pages/log/phone/phone.wxml-->
-<text>pages/log/phone/phone.wxml</text>
+<!-- <text>pages/log/phone/phone.wxml</text> -->
+<!--index.wxml-->
+<!-- <navigation-bar title="Weixin11" back="{{false}}" color="black" background="#FFF"></navigation-bar> -->
+
+<scroll-view class="scrollarea" scroll-y type="list">
+
+<!-- <view class="topbox"><view style="display: flex; align-items: center;"><image style="height: 40rpx; width: 40rpx;" src="/imgs/myimgs/左左.svg" mode=""/></view></view> -->
+
+<view class="toptubox"><view><image src="/imgs/myimgs/靓女.jpg" mode=""/></view></view>
+<view class="tit1box">188****9789</view>
+<view class="tit2box">中国移动提供认证服务</view>
+
+
+<view class="logtxt">登录</view>
+<view class="account">切换账号</view>
+</scroll-view>
+
+
+
+
+<view class="bottxt1">通过其他方式登录</view>
+<view class="logmess"><image src="/imgs/myimgs/复选框已选.svg" mode=""/>登录即代表同意<text style="color: dodgerblue;">中国移动认证服务条款</text>和<text style="color: dodgerblue;">应用自定义服务条款一、应用自定义服务条款二</text>并使用本机号码登录.
+</view>
