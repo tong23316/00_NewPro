@@ -5,6 +5,7 @@
   /*设置为弹性*/
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .flexitemOne{
@@ -12,7 +13,7 @@
   width: 45%;
   height:200rpx;
   /* background-color: red; */
-  background-image: linear-gradient(to right,#feb27a,#ff7d5d);
+  background-image: linear-gradient(to right,#e9ce75,#fa977e);
   border-radius: 15rpx 15rpx 15rpx 0;
 }
 
@@ -26,19 +27,20 @@
 }
 
 .flexitemOne image{
-  width: 70%;
-  height: 90%;
+  width: 160rpx;
+  height: 240rpx;
   position: absolute;
   /* position: relative; */
   left: 0rpx;
-  bottom: 0rpx;
+  bottom: -100rpx;
+
 }
 .flexitemTwe image{
-  width: 70%;
-  height: 90%;
+  width: 165rpx;
+  height: 150rpx;
   position: absolute;
   /* position: relative; */
-  right: -10rpx;
+  left: 0rpx;
   bottom: 0rpx;
 }
 .titletext{
@@ -51,7 +53,7 @@
 .titletext2{
   position: absolute;
   top:25rpx;
-  left: 30rpx;
+  right: 30rpx;
   font-size: 28rpx;
   color:white;
 }
@@ -146,7 +148,7 @@
   width: 25%;
   text-align: center;
   font-size: 10rpx;
-  background-color:grey;
+  background-color:rgb(175, 175, 175);
   border-radius: 25rpx;
 }
 .scroll_jw{
