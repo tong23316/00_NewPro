@@ -4,26 +4,26 @@
 <!-- <navigation-bar title="Weixin11" back="{{false}}" color="black" background="#FFF"></navigation-bar> -->
 
 <scroll-view class="scrollarea" scroll-y type="list">
-<view>666</view>
+<!-- <view>666</view> -->
 
 
-<view class="topbox"><view style="display: flex; align-items: center;"><image style="height: 40rpx; width: 40rpx;" src="" mode=""/></view></view>
-<view class="topbox"><view><image  style="border-radius: 50%;" src="" mode=""/></view></view>
+<!-- <view class="topbox"><view style="display: flex; align-items: center;"><image style="height: 40rpx; width: 40rpx;" src="/imgs/myimgs/左左.svg" mode=""/></view></view> -->
+<view class="topbox"><view><image  style="border-radius: 50%;" src="/imgs/myimgs/靓女.jpg" mode=""/></view></view>
 
 
 <view class="tit1box">宋歌你好</view>
 <view class="tit2box">欢迎登录智慧门户系统,请进行人脸验证</view>
 
 <view class="faceimgbox">
-<view><image src="" mode=""/></view>
-<view class="facetxt">点击进行人脸识别</view>
+<view><image src="/imgs/myimgs/facetu.jpg" mode=""/></view>
 </view>
+<view class="facetxt">点击进行人脸识别</view>
 
 </scroll-view>
 
 
 <view class="logmess">
-<view class="logmess-tu"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>其它登录</view></view>
-<view class="logmess-tu"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>其它登录</view></view>
+<view class="logmess-tu"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>刷脸登录</view></view>
+<view class="logmess-tu" bindtap="logphone"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>一键登录</view></view>
 <view class="logmess-tu"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>其它登录</view></view>
 </view>
