@@ -1,1 +1,102 @@
 /* pages/log/logface/logface.wxss */
+.topbox{
+  width: 90%;
+  height: 100rpx;
+  background-color: aquamarine;
+  margin: auto;
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+}
+
+.topbox view {
+  margin-left: 0;
+  background-color: blanchedalmond;
+  height: 80rpx;
+  width: 80rpx;
+}
+.topbox image{
+  background-color: blueviolet;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* 宋歌你好 */
+.tit1box{
+  width: 90%;
+  margin: auto;
+  font-size: 38rpx;
+  font-weight: 600;
+}
+.tit2box{
+  width: 90%;
+  margin: auto;
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: gray;
+}
+
+
+
+/* 图片部分 */
+.faceimgbox{
+  width: 90%;
+  height: 400rpx;
+  margin: auto;
+  margin-top: 100rpx;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.faceimgbox image{
+  /* margin: auto; */
+  background-color: hotpink;
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.facetxt{
+  position: absolute;
+  font-size: 20rpx;
+  bottom: 0;
+  color: gray;
+}
+
+/* 底部登陆部分 */
+.logmess{
+  width: 90%;
+  height: 80rpx;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  position: absolute;
+  bottom: 150rpx;
+  left: 35rpx;
+}
+
+.logmess-tu{
+  margin: 0 30rpx;
+  width: 80rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.logmess-tu image{
+  width: 80%;
+  height: 80%;
+}
+
+.logmess-tu view{
+  position: absolute;
+  font-size: 20rpx;
+  bottom: -20rpx;
+}
