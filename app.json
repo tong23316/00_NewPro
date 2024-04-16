@@ -6,7 +6,9 @@
     "pages/category/category",
     "pages/fand/fand",
     "pages/cart/cart",
-    "pages/settool/settool"
+    "pages/settool/settool",
+    "pages/log/logface/logface",
+    "pages/log/phone/phone"
   ],
   "window": {
     "navigationBarTextStyle": "black",
