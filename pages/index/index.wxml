@@ -86,7 +86,26 @@
   <view class="scroll" >
     <scroll-view scroll-x="true" style="white-space: nowrap;">
     <view class="scrollitem">
-      <view class="scrollitemBorder">
+      <view class="scrollitemBorder" style="background-image: linear-gradient(to right,rgb(40,233,151),rgb(16,180,145));">
+        <image src="/imgs/myimgs/本子.svg" mode=""/>
+      </view>
+      <view class="scroll_tit">
+        图书借阅
+      </view>
+      <view class="scroll_txt">
+        查看图书借阅记录
+      </view>
+      <view class="scroll_look">
+        <image src="/imgs/myimgs/眼睛.svg" mode=""/>
+        100+
+      </view>
+      <view class="scroll_jw">
+        <image src="/imgs/myimgs/加.svg" mode=""/>
+      </view>
+    </view>
+
+    <view class="scrollitem">
+      <view class="scrollitemBorder" style="background-image: linear-gradient(to right,rgb(252,187,44),rgb(255,143,17));">
         <image src="/imgs/myimgs/图书.svg" mode=""/>
       </view>
       <view class="scroll_tit">
@@ -105,27 +124,8 @@
     </view>
 
     <view class="scrollitem">
-      <view class="scrollitemBorder">
-        <image src="/imgs/myimgs/图书.svg" mode=""/>
-      </view>
-      <view class="scroll_tit">
-        图书借阅
-      </view>
-      <view class="scroll_txt">
-        查看图书借阅记录
-      </view>
-      <view class="scroll_look">
-        <image src="/imgs/myimgs/眼睛.svg" mode=""/>
-        100+
-      </view>
-      <view class="scroll_jw">
-        <image src="/imgs/myimgs/加.svg" mode=""/>
-      </view>
-    </view>
-
-    <view class="scrollitem">
-      <view class="scrollitemBorder">
-        <image src="/imgs/myimgs/图书.svg" mode=""/>
+      <view class="scrollitemBorder" style="background-image: linear-gradient(to right,rgb(22,182,244),rgb(43,141,219));">
+        <image src="/imgs/myimgs/钱包_o.svg" mode=""/>
       </view>
       <view class="scroll_tit">
         图书借阅
@@ -144,8 +144,8 @@
 
 
     <view class="scrollitem">
-      <view class="scrollitemBorder">
-        <image src="/imgs/myimgs/图书.svg" mode=""/>
+      <view class="scrollitemBorder" style="background-image: linear-gradient(to right,rgb(215,116,120),rgb(192,56,45));">
+        <image src="/imgs/myimgs/预警.svg" mode=""/>
       </view>
       <view class="scroll_tit">
         图书借阅
@@ -211,12 +211,4 @@
 
 </scroll-view>
 
-
-
-
-
-
-    <view class="id">
- 
-    </view>
 

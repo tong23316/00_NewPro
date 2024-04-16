@@ -269,7 +269,7 @@ border-radius: 15rpx;
 .scrollitemBorder{
   width: 80rpx;
   height: 80rpx;
-  background-color: red;
+  /* background-color: red; */
   margin: auto;
   margin-top: 30rpx;
   border-radius: 50%;
@@ -377,12 +377,4 @@ border-radius: 15rpx;
   
 
 
-
-
-.id{
-background-color: lightgreen;
-  width: 90%;
-  height: 500rpx;
-  margin: auto;
-}
 
