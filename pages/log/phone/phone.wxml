@@ -12,7 +12,7 @@
 <view class="tit2box">中国移动提供认证服务</view>
 
 
-<view class="logtxt">登录</view>
+<view class="logtxt" bindtap="goToHomePage">登录</view>
 <view class="account">切换账号</view>
 </scroll-view>
 

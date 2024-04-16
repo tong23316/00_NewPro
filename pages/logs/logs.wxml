@@ -21,8 +21,8 @@
 
 
 <view class="logmess">
-<view class="logmess-tu"  bindtap="logface"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>其它登录</view></view>
-<view class="logmess-tu"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>其它登录</view></view>
+<view class="logmess-tu"  bindtap="logface"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>刷脸登录</view></view>
+<view class="logmess-tu"  bindtap="logphone"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>一键登录</view></view>
 <view class="logmess-tu"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>其它登录</view></view>
 </view>
 
