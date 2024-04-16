@@ -132,15 +132,15 @@
       <view class="botapp_tit">通知公告</view>
       <view class="flaxonebox">
         <view class="flaxtiem"><image src="/imgs/appimgs/school.png" mode=""/><view >学校概况</view></view>
-        <view class="flaxtiem"><image src="/imgs/appimgs/school.png" mode=""/><view >学校概况</view></view>
-        <view class="flaxtiem"><image src="/imgs/appimgs/school.png" mode=""/><view >学校概况</view></view>
-        <view class="flaxtiem"><image src="/imgs/appimgs/school.png" mode=""/><view >学校概况</view></view>
+        <view class="flaxtiem"><image src="/imgs/appimgs/map.png" mode=""/><view >学校概况</view></view>
+        <view class="flaxtiem"><image src="/imgs/appimgs/money.png" mode=""/><view >学校概况</view></view>
+        <view class="flaxtiem"><image src="/imgs/appimgs/email.png" mode=""/><view >学校概况</view></view>
       </view>
       <view class="flaxonebox">
-        <view class="flaxtiem"><image src="/imgs/appimgs/school.png" mode=""/><view >学校概况</view></view>
-        <view class="flaxtiem"><image src="/imgs/appimgs/school.png" mode=""/><view >学校概况</view></view>
-        <view class="flaxtiem"><image src="/imgs/appimgs/school.png" mode=""/><view >学校概况</view></view>
-        <view class="flaxtiem"><image src="/imgs/appimgs/school.png" mode=""/><view >学校概况</view></view>
+        <view class="flaxtiem"><image src="/imgs/appimgs/libray.png" mode=""/><view >学校概况</view></view>
+        <view class="flaxtiem"><image src="/imgs/appimgs/jiangbei.png" mode=""/><view >学校概况</view></view>
+        <view class="flaxtiem"><image src="/imgs/appimgs/red.png" mode=""/><view >学校概况</view></view>
+        <view class="flaxtiem"><image src="/imgs/appimgs/shenpi.png" mode=""/><view >学校概况</view></view>
       </view>
     </view>
   </view>

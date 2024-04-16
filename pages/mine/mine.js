@@ -11,21 +11,25 @@ Page({
         id:1,
         name:'教职工请假申请',
         mobile:'工作部门:系统维护 请假申请人:xxx',
+        imgSrc:'/imgs/messageimgs/clarm.png'
       },
       {
         id:2,
-        name:'教职工请假申请',
+        name:'域名申请',
         mobile:'工作部门:系统维护 请假申请人:xxx',
+        imgSrc:'/imgs/messageimgs/gerenxinxi1.png'
       },
       {
         id:3,
-        name:'教职工请假申请',
+        name:'出国旅游申请',
         mobile:'工作部门:系统维护 请假申请人:xxx',
+        imgSrc:'/imgs/messageimgs/internet.png'
       },
       {
         id:4,
         name:'教职工请假申请',
         mobile:'工作部门:系统维护 请假申请人:xxx',
+        imgSrc:'/imgs/messageimgs/shenpi.png'
       }
     ],
     // curId:2,

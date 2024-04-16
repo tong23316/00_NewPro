@@ -208,6 +208,6 @@
 }
 .flaxtiem view{
   position: absolute;
-  bottom: -5rpx;
+  bottom: -10rpx;
   font-size: 20rpx;
 }
