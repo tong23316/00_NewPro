@@ -1,5 +1,5 @@
 <!--pages/settool/settool.wxml-->
-<navigation-bar title="Weixin11" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<!-- <navigation-bar title="Weixin11" back="{{false}}" color="black" background="#FFF"></navigation-bar> -->
 
 <scroll-view class="scrollarea" scroll-y type="list">
 
