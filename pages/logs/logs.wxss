@@ -40,7 +40,7 @@
   margin-top: 40rpx;
 }
 
-.log{
+.logtxt{
   width: 90%;
   margin: auto;
   margin-top: 50rpx;
@@ -49,4 +49,39 @@
   border-radius: 40rpx;
   text-align: center;
   line-height: 80rpx;
+}
+
+.logmess{
+  width: 90%;
+  height: 80rpx;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  position: absolute;
+  bottom: 150rpx;
+  left: 35rpx;
+}
+
+.logmess-tu{
+  margin: 0 30rpx;
+  width: 80rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.logmess-tu image{
+  width: 80%;
+  height: 80%;
+}
+
+.logmess-tu view{
+  position: absolute;
+  font-size: 20rpx;
+  bottom: -20rpx;
+
 }

@@ -17,7 +17,14 @@
 <view class="problem">登录遇到问题？</view>
 
 
-<view class="log">登录</view>
+<view class="logtxt">登录</view>
+
+
+<view class="logmess">
+<view class="logmess-tu"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>其它登录</view></view>
+<view class="logmess-tu"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>其它登录</view></view>
+<view class="logmess-tu"><image src="/imgs/myimgs/24刷脸登录.svg" mode=""/><view>其它登录</view></view>
+</view>
 
 <!-- bindtap="login-login" -->
 <!-- bindtap="login-face" -->
