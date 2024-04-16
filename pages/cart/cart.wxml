@@ -29,7 +29,7 @@
   <view class="item-cont" data-index="{{index}}" style="left:{{item.offsetX}}rpx" bindtouchstart="touchStart" catchtouchmove="touchMove" bindtouchend="touchEnd">
     <view class="mess">
       <view class="big-box">
-          <view class="big-box-img"><image src="/imgs/messageimgs/7.png" mode=""/></view>
+          <view class="big-box-img"><image src="{{item.imgSrc}}" mode=""/></view>
           <view class="big-box-tit">{{item.name}}</view>
           <view class="big-box-txt">{{item.mobile}}</view>
       </view>
