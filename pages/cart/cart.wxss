@@ -26,21 +26,8 @@
   height:50rpx;
   margin-top: 20rpx;
 }
-.yellow{
-  background-color:#f6b059;
-}
-.purple{
-  background-color:#8f6aff;
-}
-.red{
-  background-color:#ec1e71;
-}
-.green{
-  background-color:#03e391;
-}
-.blue{
-  background-color:#1e9dff;
-}
+
+
   
 
 

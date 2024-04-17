@@ -1,5 +1,5 @@
 <!--pages/cart/cart.wxml-->
-<view class="flexbox"> 
+<!-- <view class="flexbox"> 
     <view class="flexitem yellow">
       <image src="/imgs/school.svg" mode=""/>
       <view>代办</view>
@@ -20,9 +20,14 @@
         <image src="/imgs/all.svg" mode=""/>
         <view>系统</view>
     </view>
+  </view> -->
+
+  <view class="flexbox">
+  <view class="flexitem" wx:for="{{items}}" wx:key="index" style="background-color: {{item.color}}">
+    <image mode="" src="{{item.imgurl}}"></image>
+    <view>{{item.text}}</view>
   </view>
-
-
+</view>
 
 <!-- ------------------------------教职工请假部分---------------------------- -->
 <view class="list-item" style="background-color:greenyellow;" wx:for="{{list}}" wx:key="id">
