@@ -22,7 +22,7 @@
     </view>
   </view> -->
 
-  <view class="flexbox">
+<view class="flexbox">
   <view class="flexitem" wx:for="{{items}}" wx:key="index" style="background-color: {{item.color}}">
     <image mode="" src="{{item.imgurl}}"></image>
     <view>{{item.text}}</view>

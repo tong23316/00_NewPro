@@ -63,21 +63,6 @@ border-radius: 15rpx;
 }
 
 
-.yellow{
-  background-color:#f6b059;
-}
-.purple{
-  background-color:#8f6aff;
-}
-.red{
-  background-color:#ec1e71;
-}
-.green{
-  background-color:#03e391;
-}
-.blue{
-  background-color:#1e9dff;
-}
   
 
 
@@ -148,29 +133,29 @@ border-radius: 15rpx;
 .flexboxTwo{
   width: 90%;
   margin: auto;
+  margin-top: 20rpx;
   height: 65rpx;
-  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
 }
 .flexboxTwo .flexT_img{
-  top:25rpx;
-  position: absolute;
-  width: 50rpx;
-  height: 50rpx;
+  width: 65rpx;
+  height: 65rpx;
   background-color: rgb(0,173,123);
   border-radius: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
 }
 .flexboxTwo image{
-  width: 40rpx;
-  height: 40rpx;
+  width: 80%;
+  height: 80%;
 }
 
 .flexboxTwo .flexT_fon{
-  top:25rpx;
-  position: absolute;
-  left: 60rpx;
+  margin-left: 20rpx;
 }
 
 

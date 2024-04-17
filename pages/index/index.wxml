@@ -14,26 +14,12 @@
     </view>
   </view>
 
-  <view class="flexbox"> 
-    <view class="flexitem yellow">
-      <image src="/imgs/school.svg" mode=""/>
-      <view>学校概况</view>
-    </view>
-    <view class="flexitem purple">
-      <image src="/imgs/score.svg" mode=""/>
-      <view>学校概况</view>
-    </view>
-    <view class="flexitem red">
-      <image src="/imgs/order.svg" mode=""/>
-      <view>学校概况</view>
-    </view>
-    <view class="flexitem green">
-      <image src="/imgs/danger.svg" mode=""/>
-      <view>学校概况</view>
-    </view>
-    <view class="flexitem blue">
-        <image src="/imgs/all.svg" mode=""/>
-        <view>学校概况</view>
+
+
+  <view class="flexbox">
+    <view class="flexitem" wx:for="{{items}}" wx:key="index" style="background-color: {{item.color}}">
+      <image mode="" src="{{item.imgurl}}"></image>
+      <view>{{item.text}}</view>
     </view>
   </view>
 
