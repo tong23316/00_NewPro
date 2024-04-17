@@ -70,7 +70,7 @@
 
 
 
-
+<!----------------------- 图书借阅部分 ------------------------------>
   <view class="scroll" >
   <scroll-view scroll-x="true" style="white-space: nowrap;">
     <view class="scrollitem" wx:for="{{items2}}" wx:key="index">
@@ -90,10 +90,9 @@
 
 <view class="adverbox">
   <view class="advertitle">
-    <view class="advertitletext">通知公告</view>
-    <view class="advertitletext">通知公告</view>
-    <view class="advertitletext">通知公告</view>
-    <view class="advertitletext">通知公告</view>
+    <view class="advertitletext" wx:for="{{items3}}" wx:key="index">
+      {{item}}
+    </view>
   </view>
 
   <view class="adverlist">
