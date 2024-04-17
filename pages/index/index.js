@@ -2,11 +2,11 @@
 Page({
   data: {
     items: [
-      { color: '#f6b059', text: '代办', imgurl:'/imgs/school.svg' },
-      { color: '#8f6aff', text: '待阅', imgurl:'/imgs/score.svg' },
-      { color: '#ec1e71', text: '已办', imgurl:'/imgs/order.svg' },
-      { color: '#03e391', text: '已阅', imgurl:'/imgs/danger.svg' },
-      { color: '#1e9dff', text: '系统', imgurl:'/imgs/all.svg' }
+      { color: '#f6b059', text: '学校概况', imgurl:'/imgs/school.svg' },
+      { color: '#8f6aff', text: '成绩查询', imgurl:'/imgs/score.svg' },
+      { color: '#ec1e71', text: '缴费入口', imgurl:'/imgs/order.svg' },
+      { color: '#03e391', text: '学院预警', imgurl:'/imgs/danger.svg' },
+      { color: '#1e9dff', text: '全部', imgurl:'/imgs/all.svg' }
     ],
     items2: [
       {
@@ -38,7 +38,24 @@ Page({
         text: '查看图书借阅记录'
       }
     ],
-    items3: ['通知公告', '通知公告', '通知公告', '通知公告']
+    items3: ['通知公告', '通知公告', '通知公告', '通知公告'],
+    items4: [
+      {
+        title: '关于加强新生入学后校园安全管理规范的通知',
+        author: '校园新闻网',
+        img: '/imgs/item1.png'
+      },
+      {
+        title: '关于加强新生入学后校园安全管理规范的通知',
+        author: '校园新闻网',
+        img: '/imgs/item2.png'
+      },
+      {
+        title: '关于加强新生入学后校园安全管理规范的通知',
+        author: '校园新闻网',
+        img: '/imgs/item1.png'
+      }
+    ]
   },
 
 
