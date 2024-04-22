@@ -1,66 +1,35 @@
-// pages/category/category.js
+// index.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    items2: [
+      {
+        color1: 'rgb(40,233,151)',
+        color2: 'rgb(16,180,145)',
+        imgSrc: '/imgs/myimgs/本子.svg',
+        title: '图书借阅',
+        text: '查看图书借阅记录'
+      },
+      {
+        color1: 'rgb(252,187,44)',
+        color2: 'rgb(255,143,17)',
+        imgSrc: '/imgs/myimgs/图书.svg',
+        title: '图书借阅',
+        text: '查看图书借阅记录'
+      },
+      {
+        color1: 'rgb(22,182,244)',
+        color2: 'rgb(43,141,219)',
+        imgSrc: '/imgs/myimgs/钱包_o.svg',
+        title: '图书借阅',
+        text: '查看图书借阅记录'
+      },
+      {
+        color1: 'rgb(215,116,120)',
+        color2: 'rgb(192,56,45)',
+        imgSrc: '/imgs/myimgs/预警.svg',
+        title: '图书借阅',
+        text: '查看图书借阅记录'
+      }
+    ]
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
-  }
 })

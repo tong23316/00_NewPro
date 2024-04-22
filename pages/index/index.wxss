@@ -244,7 +244,7 @@ border-radius: 15rpx;
   /* height: 60%; */
   width: 30%;
   /* background-color: hotpink; */
-  box-shadow: 0rpx 5rpx 5rpx 5rpx rgba(0, 0, 0, 0.1);
+  box-shadow: 2rpx 5rpx 5rpx 5rpx rgba(0, 0, 0, 0.1);
   /* display: flex; */
   display: inline-block;
   /* flex-direction: column; */
@@ -295,7 +295,7 @@ border-radius: 15rpx;
   width: 25%;
   text-align: center;
   font-size: 10rpx;
-  background-color:grey;
+  background-color:#afafaf;
   border-radius: 25rpx;
 }
 .scroll_jw{

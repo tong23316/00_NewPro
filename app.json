@@ -23,31 +23,31 @@
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "/imgs/首页.png",
-        "selectedIconPath": ""
+        "selectedIconPath": "/imgs/首页1.png"
       },
       {
         "pagePath": "pages/category/category",
         "text": "应用",
         "iconPath": "/imgs/应用.png",
-        "selectedIconPath": ""
+        "selectedIconPath": "/imgs/应用1.png"
       },
       {
         "pagePath": "pages/cart/cart",
         "text": "消息",
         "iconPath": "/imgs/消息-置灰.png",
-        "selectedIconPath": ""
+        "selectedIconPath": "/imgs/消息1.png"
       },
       {
         "pagePath": "pages/fand/fand",
         "text": "发现",
         "iconPath": "/imgs/发现.png",
-        "selectedIconPath": ""
+        "selectedIconPath": "/imgs/发现1.png"
       },
       {
         "pagePath": "pages/mine/mine",
         "text": "我的",
         "iconPath": "/imgs/我的.png",
-        "selectedIconPath": ""
+        "selectedIconPath": "/imgs/我的1.png"
       }
     ],
     "color": "#999",

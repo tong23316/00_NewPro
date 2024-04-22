@@ -79,7 +79,7 @@
       </view>
       <view class="scroll_tit">{{item.title}}</view>
       <view class="scroll_txt">{{item.text}}</view>
-      <view class="scroll_look"><image mode=""/>100+</view>
+      <view class="scroll_look"><image src="/imgs/myimgs/眼睛.svg"/>100+</view>
       <view class="scroll_jw"><image src="/imgs/myimgs/加.svg" mode=""/></view>
     </view>
   </scroll-view>
