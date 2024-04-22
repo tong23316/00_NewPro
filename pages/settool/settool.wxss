@@ -21,8 +21,9 @@
   font-size: 36rpx;
 }
 .set-tit image{
-  width: 60rpx;
-  height: 60rpx;
+  margin-top: 20rpx;
+  width: 40rpx;
+  height: 40rpx;
   position: absolute;
   left: 0;
   /* background-color: red; */

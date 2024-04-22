@@ -72,7 +72,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: bisque;
+  /* background-color: bisque; */
   position: absolute;
   bottom: 150rpx;
   left: 35rpx;

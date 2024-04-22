@@ -3,9 +3,11 @@
 
 <scroll-view class="scrollarea" scroll-y type="list">
 
-<view class="set-tit" bindtap="navigateToTargetPage">
-<image src="/imgs/myimgs/左左.svg" mode=""/>
-设置
+  <view class="set-tit">
+  <navigator open-type="navigateBack" delta="1">
+    <image src="/imgs/myimgs/左左.svg" mode=""/>
+  </navigator>
+  设置
 </view>
 
 <view class="set-mess"><view class="set-messimg"><image src="/imgs/myimgs/喇叭.svg" mode=""/></view><view class="set-messtxt">新消息通知</view></view>

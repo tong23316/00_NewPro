@@ -1,9 +1,10 @@
 Page({
   data: {},
   navigateToTargetPage: function () {
-    wx.navigateTo({
-      url: '/pages/mine/mine',
-    });
+    // wx.navigateTo({
+    //   url: '/pages/mine/mine',
+    // });
+    wx.navigateBack();
   },
   login: function () {
     wx.navigateTo({
