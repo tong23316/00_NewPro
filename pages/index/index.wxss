@@ -321,12 +321,21 @@ border-radius: 15rpx;
 .advertitletext{
   display: inline-block;
   margin-right: 35rpx;
+  
 }
-.advertitletext:nth-child(1){
+
+/* .advertitletext:nth-child(1){
   font-size: 35rpx;
   font-weight:900;
   border-bottom: 5rpx solid#b3f2c7;
+} */
+.selected {
+  font-size: 35rpx;
+  font-weight: 900;
+  border-bottom: 5rpx solid #b3f2c7;
 }
+
+
 .adverlistitem{
   /* height:200rpx; */
   display: flex;
