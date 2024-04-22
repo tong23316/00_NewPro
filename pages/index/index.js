@@ -127,14 +127,6 @@ Page({
     ],
   },
 
-  // onAdvertitleClick(e) {
-  //   const index = e.currentTarget.dataset.index;
-  //   this.setData({
-  //     selectedIndex: index,
-  //   });
-  // },
-
-
   handleAdvertitleClick: function (e) {
     const index = e.currentTarget.dataset.index;
     this.setData({

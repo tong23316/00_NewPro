@@ -12,42 +12,24 @@
 
 
   
-<view class="adverbox">
+  <view class="adverbox">
+<!------------------------- 通知公告 ----------------------------------->
   <view class="advertitle">
-    <view class="advertitletext">通知公告</view>
-    <view class="advertitletext">通知公告</view>
-    <view class="advertitletext">通知公告</view>
-    <view class="advertitletext">通知公告</view>
-  </view>
-
-  <view class="adverlist">
-    <view class="adverlistitem">
-      <view class="itemleft">
-        <view class="itemtitle">关于加强新生入学后校园安全管理规范的通知</view>
-        <view class="itemauthor">校园新闻网</view>
-      </view>
-      <view class="itemright">
-        <image src="/imgs/item1.png" mode=""/>
-      </view>
-    </view>
-    <view class="adverlistitem">
-      <view class="itemleft">
-        <view class="itemtitle">关于加强新生入学后校园安全管理规范的通知</view>
-        <view class="itemauthor">校园新闻网</view>
-      </view>
-      <view class="itemright">
-        <image src="/imgs/item1.png" mode=""/>
-      </view>
-    </view>
-    <view class="adverlistitem">
-      <view class="itemleft">
-        <view class="itemtitle">关于加强新生入学后校园安全管理规范的通知</view>
-        <view class="itemauthor">校园新闻网</view>
-      </view>
-      <view class="itemright">
-        <image src="/imgs/item1.png" mode=""/>
-      </view>
+    <view class="{{selectedIndex === index ? 'selected' : ''}} advertitletext" wx:for="{{items3}}" wx:key="index" bindtap="handleAdvertitleClick" data-index="{{index}}">
+      {{item}}
     </view>
   </view>
 
+<!---------------- 关于加强新生入学后校园安全管理规范的通知 --------------->
+<view class="adverlist">
+  <view class="adverlistitem" wx:for="{{items0}}" wx:key="index">
+    <view class="itemleft">
+      <view class="itemtitle">{{item.title}}</view>
+      <view class="itemauthor">{{item.author}}</view>
+    </view>
+    <view class="itemright">
+      <image mode="" src="{{item.img}}"/>
+    </view>
+  </view>
+</view>
 </view>
